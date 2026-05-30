@@ -1,0 +1,11 @@
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, C/C++, JavaScript, TypeScript, Golang, Bash, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Express.js, Django, Flask, REST APIs} \\
+     \textbf{Network \& Systems}{: TCP/IP, HTTP/HTTPS, WebSocket, OAuth 2.0, DNS, Routing, Docker, Kubernetes} \\
+     \textbf{Developer Tools}{: Git, Bash Scripting, Wireshark, Postman, PyCharm, IntelliJ, Kafka} \\
+     \textbf{Coursework}{: Computer Networks, Distributed Systems, Operating Systems, Algorithms, Data Structures, Databases, Cloud Computing, System Design, Security, Network Protocols, Machine Learning, Software Engineering}\\
+    }}
+ \end{itemize}

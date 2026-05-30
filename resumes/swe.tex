@@ -1,0 +1,214 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Rohan Balasubramanian} \\ \vspace{1pt}
+    \small 934-451-2947 $|$ \href{mailto:rohan.balasubramanian@gmail.com}{\underline{rohan.balasubramanian@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/brohan2001/}{\underline{linkedin.com/in/brohan2001}} $|$
+    \href{https://github.com/brohan2001}{\underline{github.com/brohan2001}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stony Brook University}{Stony Brook, NY}
+      {Master of Science in Computer Science}{Aug 2023 -- May 2025}
+    \resumeSubheading
+      {KJ Somaiya College of Engineering}{Mumbai, India}
+      {Bachelor of Technology in Computer Engineering}{Aug 2019 -- May 2023}
+      % \resumeItemListStart
+      %   \resumeItem{GPA: 8.89/10}
+      % \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, TypeScript, Golang, C/C++, Bash, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Django, Express.js, Flask, REST APIs} \\
+     \textbf{Cloud \& DevOps}{: AWS (Lambda, ECS, SQS), GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions} \\
+     \textbf{Developer Tools}{: Git, Linux, Bash Scripting, Prometheus, Grafana, Postman, Datadog, OpenTelemetry, YAML} \\
+     \textbf{Courses}{: Cloud Computing, Distributed Systems, Operating Systems, Computer Networks, Algorithms,\\
+     Data Structures, Databases, Software Engineering, System Design, Security}\\
+    }}
+ \end{itemize}
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Predicare} $|$ \emph{Docker, Kubernetes, Django, Python, PostgreSQL, Bootstrap}}{Aug 2024 -- Dec 2024}
+          \resumeItemListStart
+            \resumeItem{Dockerized a Django based web application for online medical consultation and real time chat with doctor feature}
+            \resumeItem{Enhanced disease prediction to 95\% accuracy using SVM, Random Forest, and Gaussian Naive Bayes classifiers}
+            \resumeItem{Improved server response by 30\% using Django REST framework for efficient data handling}
+            \resumeItem{Deployed application using Kubernetes and setup auto scaling to ensure at least 3 pods for availability}
+          \resumeItemListEnd
+      \resumeProjectHeading
+    {\textbf{Constrained Text Generation with LLMs} $|$ \emph{Python, PyTorch, Llama}}{Sep 2023 -- Jun 2024}
+    \resumeItemListStart
+        \resumeItem{Translated 47k-word ``The Great Gatsby'' without the letter `e' using Llama3 with a 92\% semantic similarity}
+        \resumeItem{Implemented constrained beam search and multi-selection increasing readability by 15\%}
+        \resumeItem{Applied NER and pronoun resolution (25-word window) to achieve 100\% character consistency across novel}
+        \resumeItem{Post-processing with LanguageTool, Proselint resulting in 96.7\% fewer grammar errors and 92.82 Flesch score}
+    \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Auto Vision} $|$ \emph{Flutter, Python, TensorFlow, Firebase}}{Aug 2022 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Engineered a Flutter application to track vehicle movement integrating Firebase authentication for users}
+            \resumeItem{Executed YOLO custom model and used image processing techniques to predict license plate location}
+            \resumeItem{Created CNN model for OCR with accuracy of 99\% for recognizing license plate characters}
+          \resumeItemListEnd 
+      \resumeProjectHeading
+          {\textbf{CinePlus} $|$ \emph{ExpressJS, ReactJS, NodeJS, MongoDB}}{Jun 2021 -- Dec 2021}
+          \resumeItemListStart
+            \resumeItem{Crafted a user-friendly MERN application allowing seamless online booking of movie tickets, featuring detailed movie information, including IMDB Rating, cast, duration, and summaries}
+            \resumeItem{Leveraged WebSocket for a dynamic seat selection tool, enabling real-time seat visualization and choice}
+            \resumeItem{Utilized MongoDB to power an interactive movie review and rating system, boosting user engagement by 40\%}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Graduate Research Assistant}{May 2024 -- Jun 2025}
+      {Stony Brook University, Prof. Steven Skiena's Lab}{Stony Brook, NY}
+      \resumeItemListStart
+        \resumeItem{Integrated SadTalker for lip-syncing in Supreme Court video generation, animating more than 50 speakers}
+        \resumeItem{Applied NeMo models for ASR and diarization with 98\% transcription accuracy and 90\% speaker identification}
+        \resumeItem{Managed AI cluster as system admin, optimizing resource allocation to support 20+ concurrent research projects}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Engineer Intern}{Jun 2022 -- Nov 2022}
+      {Cloud Converse Pvt Ltd}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Developed 4 key Flutter modules: registration, lead management, settings, and permissions}
+        \resumeItem{Implemented state management using BLoC pattern and cubits, decreasing app load time by 30\%}
+        \resumeItem{Optimized API calls using dio library and caching, reducing response time from 1.2s to 0.7s}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Engineer Intern}{Mar 2022 -- Apr 2022}
+      {Astechtic Pvt Ltd}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Engineered Flutter-based personal safety app with Google Maps integration for real-time location tracking}
+        \resumeItem{Designed Node.js/Express backend supporting 500 concurrent users with 99.9\% uptime}
+        \resumeItem{Integrated Stripe API for secure payments, boosting premium subscriptions by 15\%}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+
+%-------------------------------------------
+\end{document}

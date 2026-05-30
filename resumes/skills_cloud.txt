@@ -1,0 +1,11 @@
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, TypeScript, Golang, C/C++, Bash, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Next.js, Django, Express.js, Flask, REST APIs} \\
+     \textbf{Cloud \& DevOps}{: AWS (Lambda, ECS, SQS), GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions} \\
+     \textbf{Developer Tools}{: Git, Linux, Bash Scripting, PyCharm, IntelliJ, Postman, Prometheus, Grafana, YAML} \\
+     \textbf{Coursework}{: Cloud Computing, Distributed Systems, Operating Systems, Computer Networks, Algorithms, Data Structures, Databases, Software Engineering, System Design, DevOps, Machine Learning, Security}\\
+    }}
+ \end{itemize}

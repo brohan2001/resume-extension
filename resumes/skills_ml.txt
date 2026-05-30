@@ -1,0 +1,11 @@
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, TypeScript, C/C++, Golang, R, HTML/CSS} \\
+     \textbf{ML/AI Frameworks}{: PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Llama, NeMo, OpenCV, Hugging Face} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Linux, Bash Scripting, Jupyter, Apache Spark, PyCharm, MLflow} \\
+     \textbf{Databases \& Cloud}{: MongoDB, PostgreSQL, MySQL, Firebase, AWS (Lambda, ECS, SQS), GCP, Azure} \\
+     \textbf{Coursework}{: Machine Learning, Natural Language Processing, Data Structures, Algorithms, Computer Vision, Deep Learning, Probability and Statistics, Data Science, Operating Systems, Distributed Systems, Cloud Computing}\\
+    }}
+ \end{itemize}
